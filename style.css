@@ -15,14 +15,6 @@ body {
  
 
 
-  nav {
-   background-color: black;
-   width: 100%;
-   color: white;
-   height: 50px;
-   padding-top: 25px;
-  }
-
   h1 {
    color: rgb(240, 95, 10);
   }
@@ -38,11 +30,19 @@ margin:auto;
 img {
     width:100%;
     border-radius: 0px;
-    box-shadow:0px 3px 5px rgba(15, 15, 15, .5);
+    
 }
 
-  footer {
-   background-color: gray;
-   color: white;
-   padding: 5px;
-  }
+.franjacolor{
+  flex-shrink: 0;
+  background: #fb9f33;
+width: 1500px;
+height: 79px;
+padding: 5px;
+}  
+
+.img-container{
+width:300px;
+margin-left: 20px;
+}
+
