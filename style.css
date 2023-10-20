@@ -6,7 +6,6 @@ body {
     font-family: Montserrat;
     font-size: 15px;
     font-style: normal;
-    font-weight: 600;
     line-height: normal;
     
 
@@ -17,6 +16,7 @@ body {
 
   h1 {
    color: rgb(240, 95, 10);
+   font-weight: 700;
   }
 
 
@@ -33,13 +33,15 @@ img {
     
 }
 
-.franjacolor{
-  flex-shrink: 0;
-  background: #fb9f33;
-width: 1500px;
+
+.menu{
+background-color:  #fb9f33 ;
+width:  1500px;
 height: 79px;
 padding: 5px;
-}  
+flex-shrink: 0;
+
+}
 
 .img-container{
 width:300px;
