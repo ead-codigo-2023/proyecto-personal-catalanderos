@@ -50,17 +50,19 @@
   display: grid;
   grid-template-rows: 100% auto 100%;
   column-gap: 5%;
+  position: center;
+  margin-top:5%;
 }
 
 
 
 /* Position the image container (needed to position the left and right arrows)*/
 .container {
-  position: relative;
-margin-left: 10%;
-    width: 80%;
-    grid-column: 1/2;
-  grid-row:1/1;
+   position: relative;
+   margin-left: 10%;
+   width: 80%;
+   grid-column: 1/2;
+   grid-row:1/1;
 }
 
 
@@ -156,6 +158,7 @@ margin-left: 10%;
 .descripcion-propiedad{
   text-align:left;
   width:60%;
+  line-height: 40px;
   background: red;
   grid-column: 2/2;
   grid-row:1/1;
