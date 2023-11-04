@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+
+.contenedorr{
+    height:auto;
+    width: 100%;
+    background-color: rgb(153, 127, 255);
+    padding:30px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item1{
+    background-color: beige;
+    width:50%;
+    height:100px;
+    min-width:300px;
+
+}
+
+.item2{
+    background-color: aqua;
+    width:50%;
+    height:100px;
+    min-width:300px;
+}
