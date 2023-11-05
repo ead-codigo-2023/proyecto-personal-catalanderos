@@ -102,3 +102,53 @@ a:hover{
 }
 
 
+.contenedor-propiedades{
+  display:flex;
+  column-gap: 4cap;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  }
+  
+  .propiedad1-contenedor{
+    position: relative;
+    display: inline-block;
+    width:100%;
+  }
+  
+  .propiedad2-contenedor{
+    position: relative;
+    display: inline-block;
+    width:100%;
+  }
+  
+  .propiedad3-contenedor{
+    position: relative;
+    display: inline-block;
+    width:100%;
+    color:#000
+  }
+
+.contenedor-imgytexto{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.casadomo-contacto{
+  width:40%;
+  min-width:300px;
+}
+
+.texto-presentacion{
+  text-align:left;
+  line-height: 40px;
+  width: 40%;
+  height:100px;
+  min-width:300px;
+  margin:5%;
+}
+
+Telefono.a hover{
+  color: #000;
+}
