@@ -101,32 +101,46 @@ a:hover{
   color: #000;
 }
 
-
+* {
+  box-sizing: border-box;
+}
 .contenedor-propiedades{
   display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   column-gap: 4cap;
   margin-top: 5%;
   margin-left: 5%;
   margin-right: 5%;
+  justify-content: center;
   }
   
   .propiedad1-contenedor{
     position: relative;
     display: inline-block;
-    width:100%;
+    width:50%;
+    min-width:300px;
+    justify-content: center;
+
   }
   
   .propiedad2-contenedor{
     position: relative;
     display: inline-block;
-    width:100%;
+    width:50%;
+    min-width:300px;
+    justify-content: center;
+
   }
   
   .propiedad3-contenedor{
     position: relative;
     display: inline-block;
-    width:100%;
-    color:#000
+    min-width:300px;
+    width:50%;
+    color:#000;
+    justify-content: center;
+
   }
 
 .contenedor-imgytexto{
@@ -149,6 +163,22 @@ a:hover{
   margin:5%;
 }
 
-Telefono.a hover{
-  color: #000;
+
+.Telefono{
+  background-color: gainsboro;
+  width: fit-content;
+  padding:20px;
 }
+
+body{
+  display: grid;
+  min-height:100vh;
+  grid-template-rows: auto 1fr auto;
+  }
+  
+  footer{
+    text-align: center;
+    padding: 3px;
+    background-color:  #fb9f33 ;
+    color: white;
+  }
